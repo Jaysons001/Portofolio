@@ -1,0 +1,76 @@
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  margin: 0 auto;
+  max-width: 960px;
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+}
+
+.kotak1,
+.kotak2 {
+  background: orange;
+}
+
+.kotak1 {
+  grid-column: 1/7;
+}
+.kotak2 {
+  background: orange;
+  grid-column: 7/13;
+}
+
+.kotak3 {
+  background: yellow;
+  grid-column: 1/13;
+  grid-row: 2/4;
+}
+
+.kotak4,
+.kotak5,
+.kotak6 {
+  background: purple;
+}
+
+.kotak4 {
+  grid-column: 1 /5;
+}
+.kotak5 {
+  grid-column: 5/9;
+}
+.kotak6 {
+  grid-column: 9/13;
+}
+
+.kotak7,
+.kotak8,
+.kotak9,
+.kotak10 {
+  background: grey;
+}
+
+.kotak7 {
+  grid-column: 1/4;
+}
+
+.kotak8 {
+  grid-column: 4/7;
+}
+
+.kotak9 {
+  grid-column: 7/10;
+}
+
+.kotak10 {
+  grid-column: 10/13;
+}
+
+.content div {
+  padding: 30px;
+}

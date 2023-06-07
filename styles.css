@@ -1,0 +1,112 @@
+#aboutMe {
+  background-color: beige;
+  width: 100%;
+}
+
+#aboutMe #container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#container .container1 {
+  grid-column: 1/3;
+  text-align: right;
+  padding: 30px 30px 30px 30px;
+}
+
+#container .container1 h2 {
+  font-family: "Gantari", sans-serif;
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+#container .container1 h1 {
+  font-family: "Gantari", sans-serif;
+  font-size: 60px;
+  margin: 0;
+}
+
+#container .container1 p {
+  border: 1px solid black;
+}
+
+#container .container1 button {
+  padding: 15px 41px 16px 40px;
+  margin-top: 33px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: white;
+}
+
+#container .container2 {
+  grid-column: 3/5;
+  grid-row: 1/3;
+  width: 100%;
+  overflow: hidden;
+}
+
+#container .container2 img {
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#container .container3 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding: 30px 30px 30px 80px;
+  margin: 10% 10% 10% 10%;
+}
+
+#container .container4 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  padding: 30px 30px 30px 80px;
+  margin: 10% 10% 10% 10%;
+}
+
+#aboutMe #container div {
+  /* background-color: aqua; */
+}
+
+#me {
+  background-color: black;
+  width: 100%;
+  height: 720px;
+}
+
+#me #readMore {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0 89px 0 89px;
+}
+
+#me #readMore .kotak1 {
+  width: 100%;
+  margin: 60px 100% 0 0;
+  font-family: "Gantari", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+#me #readMore .kotak2 {
+  width: 15%;
+  background-color: grey;
+  border-radius: 10%;
+  margin: 5% 0 0 0;
+}
+#me #readMore .kotak2 img {
+  padding: 30px 20px 30px 0;
+  width: 100%;
+}
+.kotak2 p {
+  text-align: center;
+  font-family: "Gantari", sans-serif;
+  color: white;
+  font-weight: 900;
+}
